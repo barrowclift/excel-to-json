@@ -6,7 +6,7 @@ Ever been sitting there thinking to yourself, "Gee, I really wish I could save m
 Please note that this is not as smart as it probably could or should be; it does not format Excel dates into a human-readable format, all number fields are doubles when saved (they always have a trailing ".0" afterwards), and boolean fields are saved with a 0 for False and 1 for True. I'm sure there are other fields that aren't *quite* formatted as expected in the resulting JSON but these are the big ones I know about.
 
 Dependencies
-——————
+------------
 
 Requires Python 3 and [xlrd](https://pypi.python.org/pypi/xlrd) for raw Excel workbook parsing.
 
