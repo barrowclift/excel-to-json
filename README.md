@@ -1,9 +1,9 @@
 Workbook to JSON
 ================
 
-Ever been sitting there thinking to yourself, "Gee, I really wish I could save my Excel workbook sheets to JSON files"? Most likely not honestly. This tool is silly but I needed it for a quick "one-off" project so I threw together this tool for that purpose. Hopefully this will be useful to someone else out there as well.
+A small script I needed to write for a quick "one-off" project at a previous employer. Hopefully this will be useful to someone else out there as well.
 
-Please note that this is not as smart as it probably could or should be; it does not format Excel dates into a human-readable format, all number fields are doubles when saved (they always have a trailing ".0" afterwards), and boolean fields are saved with a 0 for False and 1 for True. I'm sure there are other fields that aren't *quite* formatted as expected in the resulting JSON but these are the big ones I know about.
+Please note this is almost certainly not as flexible as it could or should be; it does not format Excel dates into a human-readable format, all number fields are doubles when saved (they always have a trailing ".0" afterwards), and boolean fields are saved with a 0 for False and 1 for True, to name a few rough edges. I'm sure there are other fields that aren't *quite* formatted as expected in the resulting JSON, but these are the big ones I know about.
 
 Dependencies
 ------------
